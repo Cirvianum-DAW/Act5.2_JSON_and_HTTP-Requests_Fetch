@@ -4,7 +4,7 @@ Anem a començar amb un exemple senzill on tu hauràs de crear des de zero una f
 
 1. Crea una funció _verificarCredencials_ que accepti accepti dos paràmetres: **nomUsuari** i **contrasenya**. Aquesta funció haurà de retornar una promesa.
 
-- Dins de l'array pots crear un array _usuarisAutoritzats_ amb els usuaris autoritzats i les seves contrasenyes en forma d'objecte amb nom i constrasenya:
+- Dins de la funció pots crear un array _usuarisAutoritzats_ amb els usuaris autoritzats i les seves contrasenyes en forma d'objecte amb nom i constrasenya:
   `({nom: 'usuari', contrasenya: 'contrasenya'})`
 
 - Retorna la promesa fent servir un setTimeout de 2 segons. Si l'usuari i la contrasenya coincideixen amb algun dels usuaris autoritzats, la promesa s'ha de resoldre amb un missatge de benvinguda. En cas contrari, la promesa s'ha de rebutjar amb un missatge d'error.

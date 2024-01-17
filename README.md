@@ -54,6 +54,22 @@ Fes una lectura del següent recurs fent especial atenció a les seccions de **F
 
 - [Fetch - Lenguaje JS](https://lenguajejs.com/javascript/peticiones-http/fetch/)
 
+## JSON
+
+**JSON** són les sigles de **JavaScript Object Notation**, i no és més que un format lleuger de dades, amb una estructura (notació) específica, que és totalment compatible de forma nativa amb Javascript. Com el seu propi nom indica, JSON es basa en la sintaxi que té Javascript per crear objectes.
+
+Si comparem un JSON amb un objecte JavaScript, apareixen algunes lleugeres diferències i matisos:
+
+- Les propietats de l'objecte han d'estar entrecomillades amb "cometes dobles"
+- Els textos `string` han d'estar entrecomillats amb "cometes dobles"
+- Només es poden emmagatzemar tipus com `string`,`number`,`object`,`array`, `boolean` o `null`.
+- No és possible emmagatzemar tipus de dades com `function`, `date`, `regex` entre d'altres en un JSON.
+- Tampoc és possible afegir **comentaris** en un JSON.
+
+Per consultar més detalls sobre JSON, pots consultar el següent recurs:
+
+- [JSON - Lenguaje JS](https://lenguajejs.com/javascript/objetos/json/#leyendo-json-externo)
+
 
 
 

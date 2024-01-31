@@ -115,6 +115,10 @@ const showIPC = async () => {
         values.push(item.Valor)
     })
 
+    // Canviem l'ordre dels eixos per fer-ho més lògic al gràfic
+    labels.reverse()
+    values.reverse()
+
     myChart(labels, values)
 }
 
@@ -141,14 +145,15 @@ const myChart = (labels, data) => {
     });
 }
 
-// Necessitem un event listener per quan es c('anvia el valor del selector
-const select = document.getElementById('ipc-selector')
-select.addEventListener('change', showIPC)
+
 
 main = async () => {
     const data = await getRentPrices();
     showRentPrices(data)
     showIPC()
+    // Necessitem un event listener per quan es c('anvia el valor del selector
+const select = document.getElementById('ipc-selector')
+select.addEventListener('change', showIPC)
 }
 
 main();
